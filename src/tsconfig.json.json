@@ -1,0 +1,16 @@
+echo { > tsconfig.json
+echo   "compilerOptions": { >> tsconfig.json
+echo     "target": "ES2022", >> tsconfig.json
+echo     "module": "ESNext", >> tsconfig.json
+echo     "moduleResolution": "node", >> tsconfig.json
+echo     "esModuleInterop": true, >> tsconfig.json
+echo     "allowSyntheticDefaultImports": true, >> tsconfig.json
+echo     "strict": true, >> tsconfig.json
+echo     "skipLibCheck": true, >> tsconfig.json
+echo     "outDir": "./dist", >> tsconfig.json
+echo     "rootDir": "./src", >> tsconfig.json
+echo     "resolveJsonModule": true >> tsconfig.json
+echo   }, >> tsconfig.json
+echo   "include": ["src/**/*"], >> tsconfig.json
+echo   "exclude": ["node_modules", "dist"] >> tsconfig.json
+echo } >> tsconfig.json
